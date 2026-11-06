@@ -1,0 +1,45 @@
+.apresentacao-arena {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 390px;
+  background: #1d286f;
+  color: white;
+}
+
+.apresentacao-conteudo {
+  align-self: center;
+  padding: 60px;
+}
+
+.eyebrow {
+  margin: 0 0 15px;
+  color: #35c43d;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.apresentacao-descricao {
+  max-width: 470px;
+  margin: 15px 0;
+  color: #f0f1fa;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.primary-button {
+  padding: 12px 30px;
+}
+
+.primary-button span {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.apresentacao-botao {
+  min-width: 250px;
+}
+
+.apresentacao-imagem {
+  background-position: center;
+  background-size: cover;
+}

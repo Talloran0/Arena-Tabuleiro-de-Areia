@@ -1,0 +1,57 @@
+.sobre-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 25px;
+  padding: 30px 7%;
+  background: #1d286f;
+  color: white;
+}
+
+.sobre-intro {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.sun-icon {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+}
+
+.sobre-section h2 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.sobre-intro p {
+  margin: 0;
+  color: #f0f1fa;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.estrutura-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #aab1d2;
+  text-align: center;
+}
+
+.estrutura-item:last-child {
+  border: 0;
+}
+
+.estrutura-item img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.estrutura-item p {
+  margin: 5px 0;
+  font-size: 12px;
+}

@@ -1,0 +1,61 @@
+.cadastro-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 40px;
+  padding: 30px;
+  min-height: 90vh;
+  background: #f4f6f8;
+}
+
+.cadastro-info {
+  overflow: hidden;
+  border-radius: 10px;
+  background: #1d286f;
+  color: white;
+}
+
+.cadastro-info > img {
+  display: block;
+  width: 100%;
+  height: 145px;
+  object-fit: cover;
+}
+
+.cadastro-info-content {
+  padding: 25px;
+}
+
+.cadastro-info h1 {
+  font-size: 31px;
+}
+
+.cadastro-description {
+  margin: 20px 0;
+  color: #f0f1fa;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.beneficios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.beneficios > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.beneficios img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.beneficios p {
+  margin: 0;
+  font-size: 12px;
+}
