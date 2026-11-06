@@ -16,7 +16,7 @@ Projeto React criado com Vite, seguindo a estrutura simples de componentes, prop
 - `src/components/`: contém os componentes da página inicial e do cadastro.
 - `src/App.css`: estilos das páginas.
 - `src/index.css`: configurações gerais.
-- `src/assets/`: imagens extraídas do protótipo em PDF.
+- `src/assets/`: imagens usadas em ícones e logotipos.
 
 ## Observação sobre o cadastro
 
