@@ -5,7 +5,7 @@ const ApresentacaoArena = ({ abrirCadastro }) => {
   return (
     <section className="apresentacao-arena">
       <div className="apresentacao-conteudo">
-        <p className="eyebrow">ESPORTE • SAÚDE • DIVERSÃO</p>
+        <p className="tag">ESPORTE • SAÚDE • DIVERSÃO</p>
         <h1>Sua próxima partida<br />começa aqui.</h1>
         <p className="apresentacao-descricao">
           Venha jogar, se movimentar e aproveitar bons momentos na areia.
